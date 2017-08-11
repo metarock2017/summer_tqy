@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+body{
+	background-color: #db8923;
+}
+
+main{
+
+	margin:0 auto;
+	margin-top: 0;
+	width: 800px;
+	background-color: white;
+}
+
+header{
+	display: inline-flex;
+	margin-left: 230px;
+}
+
+header img{
+	margin:20px;
+	width: 80px;
+	margin-bottom: 2px;
+}
+
+header p{
+	padding-top: 90px;
+	margin-bottom: 2px;
+}
+
+.banner{
+	width: 800px;
+}
+
+.boder{
+	text-align: center;
+	color: #db8923;
+	height: 20px;
+}
+
+.words{
+	text-align: center;
+	margin: 30px 250px;
+	font-variant: sub;
+	color: grey;
+}
+
+#book{
+	display: inline-flex;
+	margin: 20px auto;
+	
+}
+
+.booktitle{
+	border-left:solid; 
+	font-size: 35px;
+	margin: 10px 0px 0px 25px;
+	padding-left: 5px;
+}
+
+.bookimg{
+	width: 200px;
+	height: 100%;
+}
+
+.bookwords{
+	text-indent: 30px;
+	margin: 10px;
+	font-size: 15px;
+	margin-left: 50px
+}
+
+#moive{
+	display: inline-flex;
+	margin: 20px auto;
+}
+
+#moiveimg{
+	width: 150px;
+	margin:20px;
+	
+}
+
+
+#moive img{
+	
+	width: 150px;
+	margin-left: 10px;
+
+}
+ .moivewords{
+ 	text-indent: 30px;
+ 	width: 500px;
+ 	margin-top: 15px;
+ }
+
+
+.moivetitle{
+	margin-left: 20px;
+	font-size: 35px;
+	border-left: solid;
+	padding-left: 5px;
+	margin-top: 20px;
+ }
+
+ #photo p{
+ 	text-align: center;
+ 	
+ }
+
+ #photo img{
+ 	width: 150px;
+ 	margin: 40px;
+ }
+
+ #photos1 {
+ 	margin-left: 50px;
+ }
+
+#photos2 {
+ 	margin-left: 50px;
+ }
+
+ #photos3 {
+ 	margin-left: 50px;
+ }
+
+.phototitle{
+	font-size: 35px;
+	border-bottom: solid;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 30px;
+
+}
+
+.photowords{
+	font-size: 15px;
+	color:  #db8923;
+
+}
+
+.poemtitle{
+	margin-top: 20px;
+	padding-left: 20px;
+	font-size: 35px;
+	border-bottom: solid;
+}
+
+.poemwords{
+	text-align: center;
+	padding-top: 40px;
+	margin-bottom: 20px;
+}
+
+.footimg{
+	display: inline-flex;
+	margin: 60px 20px 0px 120px;
+	height: 150px;
+}
+
+#foot p{
+	text-align: center;
+	border-top: solid;
+	color: #db8923;
+	height: 100px;
+	padding-top: 10px;
+	margin-top: 0;
+}
