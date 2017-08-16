@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <title>Image preview example</title>
+</head>
+
+<body>
+    <form name="uploadForm">
+        <input type="file" onchange="previewFile()" class='file'>
+        <br>
+        <img src="" height="200" alt="Image preview...">
+        <p>
+            <input id="submit" type="submit" value="Send"  />
+        </p>
+        <p>Task progress:</p> 
+        <progress id="prog" value="1" max="100"></progress>
+        <span id="percentage"></span><span id="time"></span>
+           <br /><br/>
+    </form>
+    <script type="text/javascript" src="../demo.js"></script>
+    <script type="text/javascript" src="../app.js"></script>
+</body>
+
+</html>
