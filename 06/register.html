@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html >
+<head>
+ <meta charset="UTF-8">
+ <title>注册</title>
+</head>
+<body>
+    <p>用户名</p><br>
+    <!-- <input type="text" name="name" id="fuck" /> -->
+    <input type="text" name="asdasd" id="fuck">
+    <p>密码</p><br>
+    <input type="password" name="psd"/>
+    <input id="submit" type="submit" value="提交"/>
+    <script type="text/javascript">
+        var submit=document.querySelector('#submit');
+        var psd = document.querySelector('input[name=psd]');
+        var fuck=document.querySelector('#fuck')
+        submit.addEventListener('click', function (e){
+            e.preventDefault()
+            var xhr = new XMLHttpRequest();
+            var url = '/register';
+
+            xhr.open('POST', url, true);
+            xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+            xhr.onreadystatechange = function(e) {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    console.log(xhr.responseText)
+                    console.log('Got a POST request');
+                    window.location.href=("index.html");
+                }
+            }
+
+            xhr.send("name="+ fuck.value+"&psd="+psd.value);
+        });
+    </script>
+</form>
+</body>
+</html> 
