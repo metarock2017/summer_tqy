@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.inner {
+    width: 100px;
+    height: 100px;
+    background: antiquewhite;
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
