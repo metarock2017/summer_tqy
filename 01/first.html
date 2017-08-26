@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>拯救月亮</title>
+    <link rel="stylesheet" type="text/css" href="./css/css.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="stars">
+            <div class="star"></div>
+            <div class="star star1"></div>
+            <div class="star star1"></div>
+            <div class="star star2"></div>
+            <div class="star star2"></div>
+            <div class="star star2"></div>
+            <div class="star star3"></div>
+            <div class="star star3"></div>
+            <div class="star star3"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+        </div>
+        <div class="inner">
+            <img  src="./img/moon.png">
+        </div>
+        <!-- <div class="inner"></div> -->
+        <!-- <div class="inner"></div>
+        <div class="inner"></div>
+        <div class="inner"></div>
+        <div class="inner"></div>
+        <div class="inner"></div> -->
+        <img class="sun" id="sun1" src="./img/sun.png">
+        <img class="sun" id="sun2" src="./img/sun.png">
+        <img class="sun" id="sun3" src="./img/sun.png">
+        <img class="sun" id="sun4" src="./img/sun.png">
+        <img class="sun" id="sun5" src="./img/sun.png">
+        <img class="sun" id="sun6" src="./img/sun.png">
+        <img class="sun" id="sun7" src="./img/sun.png">
+        <img class="sun" id="sun8" src="./img/sun.png">
+        <img class="sun" id="sun9" src="./img/sun.png">
+        <img id="cloud" src="./img/cloud.png" style="left: 0px;top: 0px;">
+        <div id="win">
+            <div class="words">
+                <p class="wordss">恭喜你，成功清除了太阳，可是它们并不是那么容易被打败</p>
+                <div class="button" id="button1">
+                    <p>下一关</p>
+                </div>
+            </div>
+        </div>
+        <div id="gameover">
+            <div class=" words" >
+                <p class="wordss">很遗憾，月亮已经坠毁，璀璨星空已经被太阳占领</p>
+                <div class="button" id="button2">
+                    <p>再次拯救</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/js.js"></script>
+    <script type="text/javascript">
+    var button1 = document.getElementById('button1');
+    button1.onclick = function() {
+        window.location.href = ('second.html');
+    }
+    var button2 = document.getElementById('button2');
+    button2.onclick = function() {
+        window.location.href = ('first.html');
+    }
+
+     
+    </script>
+</body>
+
+</html>

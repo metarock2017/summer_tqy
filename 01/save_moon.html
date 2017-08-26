@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>save moon</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./css/headpage.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="stars">
+            <div class="star"></div>
+            <div class="star star1"></div>
+            <div class="star star1"></div>
+            <div class="star star2"></div>
+            <div class="star star2"></div>
+            <div class="star star2"></div>
+            <div class="star star3"></div>
+            <div class="star star3"></div>
+            <div class="star star3"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+        </div>
+        <img id="moon" src="./img/moon.png">
+        <div id="main">
+            <p id="title">拯救月亮</p>
+            <p id="words"> 很多年前，被后裔射掉的9个太阳并没有消亡殆尽，如今，它们又出来兴风作浪，甚至想占领星空取代月亮的位置，月亮能力太小，只有借助弹弹云才能不掉落，现在，需要你使用弹弹云的神力让月亮把可恶的太阳给碰下来，加油吧骚年！</p>
+            <div id="button">
+                <p>开始拯救</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    var button = document.getElementById('button');
+    button.onclick = function() {
+        window.location.href = ('first.html');
+    }
+    var star = document.querySelectorAll('.star');
+    for (var i = star.length - 1; i >= 0; i--) {
+    star[i].style.top= parseInt((Math.random() * document.documentElement.clientHeight*0.5) , 10) + "px";
+    star[i].style.left= parseInt((Math.random() *document.documentElement.clientWidth) , 10) + "px";
+}
+    </script>
+</body>
+
+</html>
